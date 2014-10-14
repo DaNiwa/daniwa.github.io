@@ -1,0 +1,124 @@
+body {
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:14px;
+    line-height:16px;
+    vertical-align:middle;
+}
+#wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 24px;
+    max-width:800px;
+    width:100%;
+}
+header {
+    margin:8px 8px 12px 12px;
+    border-bottom:3px solid #01a4a4;
+    text-transform:uppercase;
+}
+header>h1{
+    color:#000;
+    text-decoration:none;
+}
+.panel{
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    color: #666;
+}
+.panel img{
+    padding-bottom: 24px;
+    padding-left: 18px;
+}
+.panel a{
+    color: #878787;
+    text-decoration: none;
+}
+.panel a:hover{
+    text-decoration:underline;
+}
+.panel h2{
+    color: #878787;
+    text-transform:uppercase;
+    font-family: 'Exo 2', sans-serif;
+    margin-top: 8px;
+}
+.panel p{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 8px;
+}
+.panel ul{
+    padding-bottom: 16px;
+    padding-left: 18px;
+    margin-top: 6px;
+}
+#subection{
+    margin-left: 18px;
+}
+#subsection dt{
+    color: #01a4a4;
+    font-family: 'Exo 2', sans-serif;
+    font-weight:bold;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+#subsection dt a{
+    color: #01a4a4;
+    font-weight:bold;
+    text-decoration:none;
+}
+#subsection dt a:hover{
+    text-decoration: underline;
+}
+#subsection dd{
+    color:#666;
+    margin-left: 24px;
+}
+.menu {
+    float: left;
+    height: 100%;
+    width: 170px;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 0px;
+    padding-left: 24px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    border-right-width: thin;
+    border-right-style: solid;
+    border-right-color: #01a4a4;
+}
+.menu a{
+    text-decoration: none;
+    color:#000
+}
+.menu a:hover{
+    text-decoration: underline;
+    color: #000
+}
+.menu > a > h1{
+    text-transform:uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+}
+.content {
+    float: right;
+    height: 100%;
+    width: 510px;
+    padding-top: 28px;
+    padding-right: 38px;
+    padding-left: 38px;
+    padding-bottom: 16px;
+}
+.footer {
+    float: right;
+    text-align: right;
+    height: 25px;
+    width: 700px;
+    color: #999999;
+    font-size: 11px;
+    padding: 0px 38px 6px 38px;
+    margin: 0px 24px 0px 24px;
+}
