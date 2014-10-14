@@ -50,6 +50,9 @@ header>h1{
 #projects dd{
     color:#666;
 }
+#projects dd a{
+    color: #878787;
+}
 #projects dt a{
     color: #01a4a4;
     font-weight:bold;
